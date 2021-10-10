@@ -1,7 +1,7 @@
 import ProfileView from "../views/ProfileView";
 import Register from "../views/Register";
 import TestView from "../views/TestView";
-//import Home from "../views/home/Home";
+import Home from "../views/home/Home";
 
 
 
@@ -22,7 +22,7 @@ const blog = () => (
 const isPublicFalse = true
 
 export const views = {
-    //'/': {view: Home, name: 'Home', isPublic: true},
+    '/': {view: Home, name: 'Home', isPublic: true},
     '/profileview': {view: ProfileView, name: 'ProfileView', isPublic: isPublicFalse},
     '/ancianato': {view: ProfileView, name: 'ProfileView', isPublic: true},
     '/a': {view: a, name: 'A', isPublic: true},    
