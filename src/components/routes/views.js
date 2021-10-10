@@ -1,7 +1,7 @@
 import ProfileView from "../views/ProfileView";
 import Register from "../views/Register";
 import TestView from "../views/TestView";
-import Home from "../views/home/Home";
+import Home from "../views/Home/index";
 
 
 

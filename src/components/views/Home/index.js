@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-class Layout extends React.Component{
+
+class Home extends React.Component{
     render(){
         return(
             <h1>HOLA MUNDO</h1>
@@ -9,6 +9,5 @@ class Layout extends React.Component{
     }
 }
 
-const app = document.getElementById('app');
+export default Home
 
-ReactDOM.render(<Layout/>, app);

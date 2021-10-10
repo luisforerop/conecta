@@ -17,7 +17,7 @@ const PrincipalCard = props => {
       <div className={containerInfo}>
         <h2 className={titleStyle}>{title}</h2>
         <p className={descriptionContainer}>{description}</p>
-        <Button>{buttonText || 'Conecta'}</Button>
+        {buttonText ? <Button>{buttonText}</Button> : null}
       </div>
     </div>
   )
