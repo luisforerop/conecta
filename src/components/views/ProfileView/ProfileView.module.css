@@ -1,0 +1,11 @@
+.buttonsContainer, .containerNecessities, .eventsContainer{
+  display: flex;
+  width: auto;
+  margin: 5px 20px;
+  justify-content: center; 
+}
+
+.title{
+  text-align: center;
+  width: 100%;
+}
