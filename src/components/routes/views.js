@@ -1,4 +1,5 @@
 import ProfileView from "../views/ProfileView";
+import TestView from "../views/TestView";
 //import Home from "../views/home/Home";
 
 
@@ -17,6 +18,12 @@ const blog = () => (
 <h1>Esto es un blog con muchas entradas</h1>
 )
 
+const Lista = () => (
+  <h1>Esto es una lista</h1>
+  )
+  
+
+
 
 const isPublicFalse = true
 
@@ -26,5 +33,7 @@ export const views = {
     '/ancianato': {view: ProfileView, name: 'ProfileView', isPublic: true},
     '/a': {view: a, name: 'A', isPublic: true},    
     '/b': {view: b, name: 'B', isPublic: true},
-    '/blog': {view: blog, name: 'blog', isPublic: true},   
+    '/blog': {view: blog, name: 'blog', isPublic: true},
+    '/test': {view: TestView, name: 'lista', isPublic: true},
+
 }
