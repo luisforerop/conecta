@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/conecta/static/css/main.652ff924.chunk.css",
+    "main.js": "/conecta/static/js/main.d2910852.chunk.js",
+    "main.js.map": "/conecta/static/js/main.d2910852.chunk.js.map",
+    "runtime-main.js": "/conecta/static/js/runtime-main.5ba01cb6.js",
+    "runtime-main.js.map": "/conecta/static/js/runtime-main.5ba01cb6.js.map",
+    "static/js/2.5bba9bcf.chunk.js": "/conecta/static/js/2.5bba9bcf.chunk.js",
+    "static/js/2.5bba9bcf.chunk.js.map": "/conecta/static/js/2.5bba9bcf.chunk.js.map",
+    "static/js/3.f4ed60dc.chunk.js": "/conecta/static/js/3.f4ed60dc.chunk.js",
+    "static/js/3.f4ed60dc.chunk.js.map": "/conecta/static/js/3.f4ed60dc.chunk.js.map",
+    "index.html": "/conecta/index.html",
+    "static/css/main.652ff924.chunk.css.map": "/conecta/static/css/main.652ff924.chunk.css.map",
+    "static/js/2.5bba9bcf.chunk.js.LICENSE.txt": "/conecta/static/js/2.5bba9bcf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ba01cb6.js",
+    "static/js/2.5bba9bcf.chunk.js",
+    "static/css/main.652ff924.chunk.css",
+    "static/js/main.d2910852.chunk.js"
+  ]
+}
