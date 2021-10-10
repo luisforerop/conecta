@@ -31,9 +31,6 @@ export const views = {
     '/blog': {view: blog, name: 'blog', isPublic: true},
     '/test': {view: TestView, name: 'lista', isPublic: true},
     '/registro': {view: Register, name: 'registro', isPublic: true},
-<<<<<<< HEAD
-=======
     '/ancianatos': {view: ElderlyListPage, name: 'lista de ancianatos', isPublic: true},
     '/eventos': {view: EventsListPage, name: 'lista de ancianatos', isPublic: true},
->>>>>>> 7c20fcb6c1568fc440781ae7f67d0a1b9b69acce
 }
