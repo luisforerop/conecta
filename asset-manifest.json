@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/conecta/static/css/main.652ff924.chunk.css",
-    "main.js": "/conecta/static/js/main.d2910852.chunk.js",
-    "main.js.map": "/conecta/static/js/main.d2910852.chunk.js.map",
-    "runtime-main.js": "/conecta/static/js/runtime-main.5ba01cb6.js",
-    "runtime-main.js.map": "/conecta/static/js/runtime-main.5ba01cb6.js.map",
-    "static/js/2.5bba9bcf.chunk.js": "/conecta/static/js/2.5bba9bcf.chunk.js",
-    "static/js/2.5bba9bcf.chunk.js.map": "/conecta/static/js/2.5bba9bcf.chunk.js.map",
-    "static/js/3.f4ed60dc.chunk.js": "/conecta/static/js/3.f4ed60dc.chunk.js",
-    "static/js/3.f4ed60dc.chunk.js.map": "/conecta/static/js/3.f4ed60dc.chunk.js.map",
+    "main.css": "/conecta/static/css/main.5e1ad9fe.chunk.css",
+    "main.js": "/conecta/static/js/main.eb247b1d.chunk.js",
+    "main.js.map": "/conecta/static/js/main.eb247b1d.chunk.js.map",
+    "runtime-main.js": "/conecta/static/js/runtime-main.120c64c9.js",
+    "runtime-main.js.map": "/conecta/static/js/runtime-main.120c64c9.js.map",
+    "static/js/2.25e72891.chunk.js": "/conecta/static/js/2.25e72891.chunk.js",
+    "static/js/2.25e72891.chunk.js.map": "/conecta/static/js/2.25e72891.chunk.js.map",
+    "static/js/3.5e40f003.chunk.js": "/conecta/static/js/3.5e40f003.chunk.js",
+    "static/js/3.5e40f003.chunk.js.map": "/conecta/static/js/3.5e40f003.chunk.js.map",
     "index.html": "/conecta/index.html",
-    "static/css/main.652ff924.chunk.css.map": "/conecta/static/css/main.652ff924.chunk.css.map",
-    "static/js/2.5bba9bcf.chunk.js.LICENSE.txt": "/conecta/static/js/2.5bba9bcf.chunk.js.LICENSE.txt"
+    "static/css/main.5e1ad9fe.chunk.css.map": "/conecta/static/css/main.5e1ad9fe.chunk.css.map",
+    "static/js/2.25e72891.chunk.js.LICENSE.txt": "/conecta/static/js/2.25e72891.chunk.js.LICENSE.txt",
+    "static/media/instagram.86a1bd21.png": "/conecta/static/media/instagram.86a1bd21.png",
+    "static/media/logo.8b5f95f4.png": "/conecta/static/media/logo.8b5f95f4.png",
+    "static/media/twitter.09ee7e24.png": "/conecta/static/media/twitter.09ee7e24.png",
+    "static/media/whatsapp.27dec7ad.png": "/conecta/static/media/whatsapp.27dec7ad.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ba01cb6.js",
-    "static/js/2.5bba9bcf.chunk.js",
-    "static/css/main.652ff924.chunk.css",
-    "static/js/main.d2910852.chunk.js"
+    "static/js/runtime-main.120c64c9.js",
+    "static/js/2.25e72891.chunk.js",
+    "static/css/main.5e1ad9fe.chunk.css",
+    "static/js/main.eb247b1d.chunk.js"
   ]
 }
