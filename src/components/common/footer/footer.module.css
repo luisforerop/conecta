@@ -1,0 +1,57 @@
+h1{
+   color: white; 
+}
+.footercontainer{
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    left: 0px;
+    background: #414141;
+    padding: 1em;
+}
+.twitter{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 2%;
+    top: 65%;
+}
+.facebook{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 8%;
+    top: 59%;
+}
+.instagram{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5%;
+    top: 64%;
+}
+.whatsapp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 12%;
+    top: 66%;
+}
+.info{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 60%;
+    top: 10%;
+}
+.lista{
+    color: white;
+}
+.copp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 80%;
+    top: 65%;
+    color: white;
+}
