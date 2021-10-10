@@ -1,7 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router'
 import Button from '../../common/Button'
-import Header from '../../common/header'
 import PrincipalCard from '../../common/PrincipalCard'
 import styles from './ElderlyListPage.module.css'
 

@@ -6,6 +6,8 @@ import PrincipalCard from '../../common/PrincipalCard'
 import Product from '../../common/Product'
 import styles from './ProfileView.module.css'
 
+const willContact = () => alert('Pronto nos contactaremos contigo')
+
 const Necessities = props => {
   const urlDefault = 'https://image.freepik.com/vector-gratis/concepto-caridad-vector-doodle-donacion-alimentos_53876-126424.jpg'
   const { necessitiesList } = props
@@ -39,6 +41,7 @@ const Events = props => {
               title={event.title}
               description={event.description}
               buttonText='Participa'
+              buttonHandler={willContact}
             />
           ) : null
         })}
@@ -61,6 +64,23 @@ const Products = props => {
     </div>
   )
 }
+
+const MyDescription = () => (
+  <>
+    <div>
+      Teléfono: 3127294152
+    </div>
+    <div>
+      Email: ancestros@gmail.com
+    </div>
+    <div>
+      Dirección: Calle 20 #10
+    </div>
+    <div>
+      Ciudad: Bogotá
+    </div>
+  </>
+)
 
 const defaultNecessities = [
   {
@@ -137,7 +157,6 @@ const ProfileView = () => {
       padding: '10px 20px'
     }
   }
-  const description = 'test<br>'
   return (
     <div>
       <Button
@@ -149,20 +168,25 @@ const ProfileView = () => {
       </Button>
       <PrincipalCard
         title={'Ancianato Ancestros'}
-        description={description}
         customStyles={ customStyles }
-      />      
+        >
+        <MyDescription/>
+      </PrincipalCard>      
       <Necessities
         necessitiesList={defaultNecessities}
-      />
+        />
       <div className={buttonsContainer}>
         <Button
+          handler={willContact}
           isDark={true}
+          customStyle={{marginRight: 20, width: 150}}
         >
           Dona aquí
         </Button>
         <Button
+          handler={willContact}
           isDark={true}
+          customStyle={{width: 150}}
         >
           Sé voluntario
         </Button>        
