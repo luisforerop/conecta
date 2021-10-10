@@ -1,4 +1,4 @@
-.buttonsContainer, .containerNecessities, .eventsContainer{
+.buttonsContainer, .containerNecessities, .eventsContainer, .productsContainer, .infoContainer{
   display: flex;
   width: auto;
   margin: 5px 20px;
