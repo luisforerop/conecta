@@ -17,6 +17,10 @@ const blog = () => (
 <h1>Esto es un blog con muchas entradas</h1>
 )
 
+const lista = () => (
+  <h1>Esto es una lista</h1>
+)
+  
 
 const isPublicFalse = true
 
@@ -27,4 +31,5 @@ export const views = {
     '/a': {view: a, name: 'A', isPublic: true},    
     '/b': {view: b, name: 'B', isPublic: true},
     '/blog': {view: blog, name: 'blog', isPublic: true},   
+    '/lista': {view: blog, name: 'lista', isPublic: true},   
 }
