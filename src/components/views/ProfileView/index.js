@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router'
 import Button from '../../common/Button'
 import CircleImage from '../../common/CicleImage'
 import PrincipalCard from '../../common/PrincipalCard'
@@ -119,6 +120,8 @@ const defaultProducts = [
 
 const ProfileView = () => {
   const { title, buttonsContainer } = styles
+  const history = useHistory()
+  const goBack = () => history.push('/ancianatos')
   const customStyles = {
     container: {
       backgroundColor: 'white',
@@ -126,13 +129,27 @@ const ProfileView = () => {
       margin: '5px 20px',
       paddingLeft: 100,
       marginTop: 30
+    },
+    buttonStyle: {
+      position: 'absolute',
+      top: 0,
+      margin: 20,
+      padding: '10px 20px'
     }
   }
+  const description = 'test<br>'
   return (
     <div>
+      <Button
+        customStyle={customStyles.buttonStyle}
+        isDark={true}
+        handler={goBack}
+      >
+        Lista de ancianatos
+      </Button>
       <PrincipalCard
         title={'Ancianato Ancestros'}
-        description={'sdjhskjdfhsdkjfhsdkjfhsdkjfhksdjfh'}
+        description={description}
         customStyles={ customStyles }
       />      
       <Necessities

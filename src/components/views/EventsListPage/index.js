@@ -26,6 +26,7 @@ const eventList = [
 const EventsListPage = () => {
   const history = useHistory()
   const goToElderly = () => history.push('/ancianatos')
+  const takePart = () => alert('Nos contactaremos contigo') 
   return (
     <>
       <div className={styles.container}>
@@ -43,7 +44,7 @@ const EventsListPage = () => {
             title={event.title}
             description={event.description}
             buttonText='Participa'
-            
+            buttonHandler={takePart}
           />
         ))}
     </div>

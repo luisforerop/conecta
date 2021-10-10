@@ -1,20 +1,15 @@
 .container{
     background-color: #9EC0B0;
-    width: 1440px;
-    height: 92px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
 }
 .title{
-    position: absolute;
-    width: 544px;
-    height: 89px;
-    left: 471px;
-    top: 2px;
-
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
-    line-height: 72px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -23,8 +18,8 @@
 }
 .logo{
     position: absolute;
-    width: 80px;
-    height: 71px;
-    left: 338px;
-    top: 5px;
+    width: 65px;
+    height: 60px;
+    left: 57vw;
+    top: 0px;
 }

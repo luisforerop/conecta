@@ -1,6 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router'
 import Button from '../../common/Button'
+import Header from '../../common/header'
 import PrincipalCard from '../../common/PrincipalCard'
 import styles from './ElderlyListPage.module.css'
 
@@ -25,6 +26,7 @@ const elderlyList = [
 const ElderlyListPage = () => {
   const history = useHistory()
   const goToEvents = () => history.push('/eventos')
+  const goToElderly = () => history.push('/ancianato')
   return (
     <>
       <div className={styles.container}>
@@ -42,7 +44,7 @@ const ElderlyListPage = () => {
             title={elderly.title}
             description={elderly.description}
             buttonText='Más info'
-            
+            buttonHandler={goToElderly}
           />
         ))}
     </div>
