@@ -1,13 +1,13 @@
 import React from "react";
+import Header from "../../common/header";
 
 
 class Home extends React.Component{
     render(){
         return(
-            <h1>HOLA MUNDO</h1>
+            <Header/>
         );
     }
 }
 
 export default Home
-
