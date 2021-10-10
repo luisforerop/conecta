@@ -1,5 +1,6 @@
 //import React from 'react
 import { BrowserRouter, Route } from 'react-router-dom';
+import Header from '../common/header';
 import PrivateRoutes from './privateRoutes';
 import { views } from './views';
 
@@ -9,7 +10,7 @@ const MyRoutes = () => {
   const Paths = Object.keys(views)
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      
+      <Header/>
       {/*<Navegation/>*/}
       {/* El siguiente código renderiza los componentes*/}
       {
