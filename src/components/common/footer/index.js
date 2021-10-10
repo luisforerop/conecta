@@ -8,7 +8,8 @@ import whatsapp from './icons/whatsapp.png';
 
 const Footer = props => {
     return (
-      <div className={styles.footercontainer}>
+      <footer className={styles.footer}>
+          <div className={styles.footercontainer}>
           <div className={styles.title}>
               <h1>Siguenos en: </h1>
               <img className={styles.twitter}
@@ -39,6 +40,7 @@ const Footer = props => {
                 </div>
           </div>
       </div>
+      </footer>
     )
   }
   

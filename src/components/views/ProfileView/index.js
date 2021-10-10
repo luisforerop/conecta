@@ -2,6 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router'
 import Button from '../../common/Button'
 import CircleImage from '../../common/CicleImage'
+import MyDescription from '../../common/Description'
 import PrincipalCard from '../../common/PrincipalCard'
 import Product from '../../common/Product'
 import styles from './ProfileView.module.css'
@@ -42,6 +43,7 @@ const Events = props => {
               description={event.description}
               buttonText='Participa'
               buttonHandler={willContact}
+              buttonCustomStyle={customStyles.buttons}
             />
           ) : null
         })}
@@ -65,22 +67,25 @@ const Products = props => {
   )
 }
 
-const MyDescription = () => (
-  <>
-    <div>
-      Teléfono: 3127294152
-    </div>
-    <div>
-      Email: ancestros@gmail.com
-    </div>
-    <div>
-      Dirección: Calle 20 #10
-    </div>
-    <div>
-      Ciudad: Bogotá
-    </div>
-  </>
-)
+const customStyles = {
+  container: {
+    backgroundColor: 'white',
+    width: 'auto',
+    margin: '5px 20px',
+    paddingLeft: 100,
+    marginTop: 30
+  },
+  buttonStyle: {
+    position: 'absolute',
+    top: 0,
+    margin: 20,
+    padding: '10px 20px'
+  },
+  buttons: {
+    width: 150,
+    marginTop: 5
+  }
+}
 
 const defaultNecessities = [
   {
@@ -142,21 +147,6 @@ const ProfileView = () => {
   const { title, buttonsContainer } = styles
   const history = useHistory()
   const goBack = () => history.push('/ancianatos')
-  const customStyles = {
-    container: {
-      backgroundColor: 'white',
-      width: 'auto',
-      margin: '5px 20px',
-      paddingLeft: 100,
-      marginTop: 30
-    },
-    buttonStyle: {
-      position: 'absolute',
-      top: 0,
-      margin: 20,
-      padding: '10px 20px'
-    }
-  }
   return (
     <div>
       <Button
@@ -170,7 +160,12 @@ const ProfileView = () => {
         title={'Ancianato Ancestros'}
         customStyles={ customStyles }
         >
-        <MyDescription/>
+        <MyDescription
+          phone='3127294152'
+          email='ancestros@gmail.com'
+          address='Calle 20 #10'
+          city='Bogotá'
+        />
       </PrincipalCard>      
       <Necessities
         necessitiesList={defaultNecessities}

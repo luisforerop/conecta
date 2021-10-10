@@ -1,5 +1,6 @@
 //import React from 'react
 import { BrowserRouter, Route } from 'react-router-dom';
+import Footer from '../common/footer';
 import Header from '../common/header';
 import PrivateRoutes from './privateRoutes';
 import { views } from './views';
@@ -32,7 +33,7 @@ const MyRoutes = () => {
             
             
       )})}
-
+      <Footer/>
     </BrowserRouter>    
 )}
 

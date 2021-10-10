@@ -1,9 +1,10 @@
-h1{
+
+
+.footercontainer h1{
    color: white; 
 }
 .footercontainer{
-    position: absolute;
-    width: 100%;
+    position: relative;
     height: 104px;
     left: 0px;
     background: #414141;

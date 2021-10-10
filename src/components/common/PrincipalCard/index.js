@@ -3,7 +3,7 @@ import Button from '../Button'
 import styles from './PrincipalCard.module.css'
 
 const PrincipalCard = props => {
-  const { urlImage, title, description, buttonText, customStyles, buttonHandler, children } = props
+  const { urlImage, title, description, buttonText, customStyles, buttonHandler, children, buttonCustomStyle } = props
   const urlDefault = 'https://media.gettyimages.com/photos/happy-senior-man-sitting-at-home-picture-id912073272?s=612x612'
   const { title: titleStyle, image, containerInfo, container, descriptionContainer } = styles
   return (
@@ -14,7 +14,7 @@ const PrincipalCard = props => {
         className={image}
         style={customStyles?.image}
       />
-      <div className={containerInfo}>
+      <div className={containerInfo} style={customStyles?.containerInfo}>
         <h2 className={titleStyle}>{title}</h2>
         <>{children}</>
         {descriptionContainer ? 
@@ -22,6 +22,7 @@ const PrincipalCard = props => {
         {buttonText ?
           <Button
             handler={ buttonHandler }
+            customStyle={ buttonCustomStyle }
           >
             {buttonText}
           </Button> : null

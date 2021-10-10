@@ -1,6 +1,14 @@
-.container{
+.titleContainer{
   display: flex;
   width: auto;
   margin: 5px 20px;
   justify-content: center; 
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  margin: 5px 20px;
+  justify-items: center; 
 }
