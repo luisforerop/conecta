@@ -1,0 +1,31 @@
+.title{
+  margin: 0;
+}
+
+.descriptionContainer{
+  margin: 0;
+}
+
+.container{
+  background-color: #F4F0E8;
+  border-radius: 10px;  
+  overflow: hidden;
+  padding: 20px;
+  display: flex;
+  width: 40vw;
+  margin: 10px;
+}
+
+.image{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.containerInfo{
+  width: 270px;
+  word-wrap: break-word;
+  height: 100%;
+}

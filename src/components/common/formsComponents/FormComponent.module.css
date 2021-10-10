@@ -1,0 +1,60 @@
+.group{
+    position: relative;
+    margin: 40px;
+    /*background-color: aqua;*/
+  }
+  
+  input{
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    /*border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 5px*/
+    border: none;
+    border-bottom: 2px solid var(--colorText);
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  input:focus~label,
+  input:valid~label{ /*Esto se ejecuta cuando input está en focus y es válido*/
+    top: -10px;
+    font-size: 13px;
+    color: rgb(32,122,166);
+  }
+  
+  label{
+    color: var(--colorText);
+    font-size: 16px;
+    /*Usando position absolute posicionamos label en relación al grupo*/
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    pointer-events: none; /*Para que no cambie el puntero*/
+    transition: 0.3s ease-in-out all; /*ease es el 'estilo' de transition*/
+  }
+
+
+.slide {
+    color: red;
+}
+.slide::before{ /*Como before no existe, background se convierte en una línea*/
+    content: "";
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 0;
+    transition: 0.3s ease width;
+  }
+  
+  input:focus~.slide::before{
+    width: 100%;
+  }

@@ -1,0 +1,15 @@
+.myButton{
+  border: none;
+  border-radius: 30px;
+  background-color: aqua;
+  color: #FFF ;
+  padding: 10px;
+}
+
+.light{
+  background-color:#9EC0B0;
+}
+
+.dark{
+  background-color:#196870;
+}
